@@ -1,0 +1,27 @@
+{
+  "name": "ejercicio-calculadora",
+  "version": "1.0.0",
+  "description": "Para la clase Calculadora que se brinda de ejemplo en este repositorio:",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORT-FIS/ejercicio-calculadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORT-FIS/ejercicio-calculadora/issues"
+  },
+  "homepage": "https://github.com/ORT-FIS/ejercicio-calculadora#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  },
+  "type": "module",
+  "jest": {
+    "verbose": true,
+    "transform": {}
+  }
+}
